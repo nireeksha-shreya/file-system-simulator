@@ -51,3 +51,11 @@ The `mkdir(path)` function:
 3. Creates missing directories dynamically
 
 Example:
+
+```python
+fs = FileSystem()
+fs.mkdir("/home/user/docs")
+fs.mkdir("/home/user/images")
+fs.ls()
+```
+
